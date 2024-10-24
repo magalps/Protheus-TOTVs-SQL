@@ -1,0 +1,21 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "totvs_language_debug",
+            "request": "launch",
+            "name": "Smart Client Debug",
+            "program": "${command:AskForProgramName}",
+            "smartclientBin": "D:/TOTVS/Protheus2310/Protheus/bin/smartclient/smartclient.exe",
+            "cwb": "${workspaceFolder}",
+            "isMultiSession": true,
+            "enableTableSync": true,
+            "extendFeatures": {
+                "charDetails": false
+            }
+        }
+    ]
+}
